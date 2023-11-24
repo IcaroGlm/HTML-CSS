@@ -1,0 +1,14 @@
+
+/* oi, tudo bem? */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:blanchedalmond; color: blueviolet;
+    font-size: 12;
+}
+h1 {
+    color: blue;
+}
+a {
+    color: blueviolet;
+    text-decoration: none;
+}

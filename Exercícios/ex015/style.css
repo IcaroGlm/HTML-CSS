@@ -1,0 +1,19 @@
+
+/* oi, tudo bem? */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(253, 255, 224); color: rgb(26, 11, 46);
+    font-size: 12;
+    text-align: justify;
+}
+h1 {
+    color: rgb(7, 32, 10); background-color: rgb(115, 106, 122); text-align: center;
+}
+a {
+    color: rgb(0, 255, 13);
+    text-decoration: none;
+    text-align: center;
+}
+p {
+    text-align: justify;
+}

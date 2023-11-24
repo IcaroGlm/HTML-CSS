@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes e pseudo-elementos em links</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style copy.css">
+    <style>
+
+        /*
+            #  = id
+            .  = class
+            :  = pseudo-class
+            :: = pseudo-element
+            >  = children
+        */
+        a {
+            font-weight: bold;
+            color: #04D98B;
+            text-decoration: none;
+        }
+        
+        a:visited {
+            color: #014d31;
+        }
+        a:hover {
+            text-decoration: underline;
+            font-size: 1.1em;
+            
+        }
+        a:active {
+            color: #00ffa2;
+        }
+
+        a.especial:hover {
+            color: #ffa600;
+            background-color: #011C40;
+            text-decoration: none;
+            font-size: 1em;
+        }
+        
+        a.especial::after {
+            content: '<<';
+            font-weight: lighter;
+        } 
+        a.especial::before {
+            content: '>>';
+            font-weight: lighter;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Personalizando um link</h1>
+        <ul>
+            <li>
+                <p>Para aprender HTML e CSS acesse o <a rel="external" target="_blank" href="https://gustavoguanabara.github.io">Github do Guanabara</a></p>
+            </li>
+            <li>
+                <p>
+                     Se quiser conhecer um pouco mais sobre os padrôes acesse o <a rel="external" target="_blank" href="https://www.w3c.br">Escritório do W3C no Brasil</a>
+                </p>
+            </li>
+            <li>
+                <p>
+                    Para acompanhar os cursos acesse o <a rel="external" target="_blank" href="https://www.youtube.com/cursoemvideo">canal do CursoemVideo</a>
+                </p>
+            </li>
+            <li>
+                <p>
+                    Temos também o <a class="especial" href="https://www.youtube.com/redirect?event=channel_description&redir_token=QUFFLUhqbE5GZ1JQeG1NXzZvM0QzNTg4aUFTM19zZXFwd3xBQ3Jtc0tuNm9ERTBoQnlhYk9rZy1YbkllWjlGRnVHajVYVVZlZmZOMXY0ZURyaThfbWFtaG52bDVTLThZTzQ5bUd6MURUdHgtWDNEZVlYemR6dDVybXlIZlVfeFJROE1ROTB1OUxaek1FWUNwS184TDdMTm5kRQ&q=http%3A%2F%2Fwww.cursoemvideo.com">Twitter do Curso em video</a>
+                </p>
+            </li>
+        </ul>
+
+
+    </main>
+    
+</body>
+</html>

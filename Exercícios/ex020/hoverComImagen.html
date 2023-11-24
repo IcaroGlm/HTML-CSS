@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        div > img {
+            display: none;
+        }
+        div:hover > img {
+            display: block;
+        }
+        div:hover {
+            color: green;
+        }
+
+        img#favicon {
+            border: 5px solid #011C40;
+            border-radius: 13px;
+        }
+    </style>
+</head>
+<body>
+    <main>  
+        <p>Passe o mouse sobre o texto abaixo</p>
+
+        <div>
+            passe o mouse aqui
+            <img id="favicon" src="favicon.ico" alt="Imagen favicon">
+        </div>
+    </main>
+    
+</body>
+</html>

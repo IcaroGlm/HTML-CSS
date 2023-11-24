@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em tamanhos de tela diferente</p>
+
+    <br>
+
+    <picture>
+
+        <source media="(max-width: 740px)" srcset="imagens/1modeloDeImagenP.jpg" type="image/jpg">
+
+        <source media="(max-width: 1040px )" srcset="imagens/2modeloDeImagenM.jpg" type="image/jpg">
+        
+        <img src="imagens/modeloDeImagenG.jpg" alt="Foto tamanho G">
+
+    </picture>
+
+    <br>
+
+    <h1>Reproduzindo audio</h1>
+    <p>aqui temos um audio disponível para ouvir e baixar</p>
+    <br>
+   
+    <audio src="midia/drop-the-tapes-tracktribe.mp3" controls autoplay>
+   
+
+    </audio> 
+  <!-- MP3 WAV OGG-->
+
+  <audio preload="metadata" autoplay controls loop>
+    <source src="midia/high-noon-tracktribe.mp3" type="audio/mpeg">
+    <p>Seu navegador não suporta este audioa
+        <a href="midia/high-noon-tracktribe.mp3" download="high-noon-tracktribe.mp3" type="audio/mpeg"></a>
+    </p>
+  </audio>
+
+  <h1>Adicionando vídeo</h1>
+  <p>Também pode-se subir vídeos </p>
+
+  <video src="midia/Vídeo camisa FLA trad instagram.mp4" width="300" controls autoplay>
+  </video>
+  <br>
+<p>Mas para os mecanismos de pesquisa é melhor que seja colocado um video hospedado em outo lugar, como o youtube. <br>
+Assim como eu fiz abaixo:</p>
+<br>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/xEWUPMiBTLw?si=_W0GR1bP1tg37jkV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>

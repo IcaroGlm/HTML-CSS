@@ -1,0 +1,17 @@
+
+
+body{
+     font-size: larger; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Courier, monospace; text-align: justify; background-image:radial-gradient(circle, #D0D9D4 5%, white); 
+}
+   
+h1 {
+    
+}
+p {
+    background-color: rgba(255, 255, 255, 0.089);
+}
+h2{
+    background-color: #798C8C; color: #F2EFDF;
+} 
+
+/* #7880E3 */
