@@ -7,22 +7,38 @@
 
     <style>
         body{
+            margin: 0px;
             height: 96vh;
             background-size: auto;
-            background: white url("espacoM.jpg") center center no-repeat fixed;
-        }
-        divastronauta{
-            height: 100vh;
             background-color: black;
-            height: 500px;
-            width: 500px;
+        }
+        div#espaco{
+            position: relative;
+            padding: 20px;
+            height: 92.4vh;
+            background-color: black;
             background-image: url(espaco.jpg);
             background-size: 100% 100%;
+        }
+        div#astronauta{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            height: 65vh;
+            width: 65vh;
+            background-color: rgba(255, 255, 255, 0)  ;
+            background-image: url('astronauta.png') ;
+            background-size: 100%;
+
         }
     </style>
 </head>
 <body>
-    <div id="astronauta">
+    <div id="espaco">
+        <div id="astronauta">
+
+        </div>
 
     </div>
     
