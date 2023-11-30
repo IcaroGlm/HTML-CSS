@@ -3,3 +3,123 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One&family=Sriracha&display=swap');
+
+body{
+    background-color: gray;
+    margin: 0px;
+    background-size: cover;
+    background: green url('imagens/background001.jpg') center center no-repeat fixed;
+
+}
+body p{
+    margin: 0px
+}
+main p{
+    font-family: Sriracha, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: rgb(26, 26, 26);
+}
+
+header {
+    position: relative;
+    background-color: black;
+    height: 140px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+header > div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+header h1{
+    font-family: Passion One, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 3em;
+}
+header p{
+    margin-top: -25px;
+    font-family: Passion One, Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: gray;
+}
+header p > a{
+    color: white;
+    text-decoration: none;
+}
+header p :hover{
+    text-decoration: underline;
+}
+
+div#bloco1{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    padding: 15px;
+}
+div#bloco1 p{
+    position: absolute;
+    top: 50%;
+    transform: translate(0px, -50%);
+}
+
+div#transparente1{
+    position: relative;
+    height: 400px;
+}
+div#transparente1 p{
+    position: absolute;
+    top: 50%;
+    transform: translate(0px, -50%);
+    color: rgb(235, 235, 235);
+    font-weight: 500;
+    background-color: rgba(0, 0, 0, 0.151);
+    padding: 20px;
+}
+
+div#bloco3{
+    position: relative;
+    height: 600px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+}
+div#alinhamento{
+    position: absolute;
+    top: 50%;
+    transform: translate(0px, -50%);
+}
+
+p.primeiroP{
+    margin-bottom: 30px;
+}
+
+div#transparente2{
+    position: relative;
+    height: 400px;
+}
+div#transparente2 p{
+    position: absolute;
+    top: 50%;
+    transform: translate(0px, -50%);
+    color: rgb(235, 235, 235);
+    font-weight: 500;
+    background-color: rgba(0, 0, 0, 0.151);
+    padding: 20px;
+}
+
+div#bloco5{
+    position: relative;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+}
+div#alinhamentob5{
+    position: absolute;
+    top: 50%;
+    transform: translate(0px, -50%);
+}
+
+
